@@ -1,0 +1,18 @@
+{
+    "response": {
+        "200": {
+            "type": "object",
+            "properties": {
+                "username": { "type": "string" },
+                "userId": { "type": "number" },
+                "language": {
+                    "type": "string",
+                    "enum": ["en", "ru"],
+                    "tsEnumNames": ["en", "ru"]
+                }
+            },
+            "additionalProperties": false,
+            "required": ["username", "userId", "language"]
+        }
+    }
+}

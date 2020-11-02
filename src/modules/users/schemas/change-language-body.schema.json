@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+        "language": {
+            "type": "string",
+            "enum": ["en", "ru"],
+            "tsEnumNames": ["en", "ru"]
+        }
+    },
+    "additionalProperties": false,
+    "required": ["language"]
+}
